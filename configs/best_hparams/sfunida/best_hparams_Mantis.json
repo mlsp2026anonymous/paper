@@ -1,0 +1,170 @@
+{
+  "HAR": {
+    "GLC": {
+      "rho": 0.7,
+      "w_0": 0.3,
+      "lam_knn": 1,
+      "lam_psd": 2,
+      "local_K": 10,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.01,
+      "num_epochs_pr": 20,
+      "num_epochs_src": 100
+    },
+    "GLCpp": {
+      "rho": 0.7,
+      "w_0": 0.25,
+      "lam_knn": 2,
+      "lam_psd": 0.5,
+      "lam_reg": 1,
+      "local_K": 4,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.0001,
+      "num_epochs_pr": 20,
+      "num_epochs_src": 100
+    },
+    "LEAD": {
+      "w_0": 0.3,
+      "alpha": 0.0001,
+      "lam_psd": 0.3,
+      "local_K": 5,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.005,
+      "num_epochs_pr": 20,
+      "num_epochs_src": 100
+    },
+    "UMAD": {
+      "w_0": 0.25,
+      "T_flat": 0.5,
+      "alpha_ls": 0.1,
+      "lam_orth": 0.5,
+      "rho_frac": 0.05,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.001,
+      "num_epochs_pr": 20,
+      "num_epochs_src": 100
+    }
+  },
+  "HHAR": {
+    "GLC": {
+      "rho": 0.5,
+      "w_0": 0.45,
+      "lam_knn": 1,
+      "lam_psd": 0.3,
+      "local_K": 4,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.001,
+      "num_epochs_pr": 20,
+      "auto_threshold": false,
+      "num_epochs_src": 100
+    },
+    "GLCpp": {
+      "rho": 0.5,
+      "w_0": 0.35,
+      "lam_knn": 0.3,
+      "lam_psd": 1,
+      "lam_reg": 0.5,
+      "local_K": 5,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.0001,
+      "num_epochs_pr": 20,
+      "auto_threshold": false,
+      "num_epochs_src": 100
+    },
+    "LEAD": {
+      "w_0": 0.4,
+      "alpha": 0.0001,
+      "lam_psd": 0.5,
+      "local_K": 7,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.005,
+      "num_epochs_pr": 20,
+      "auto_threshold": false,
+      "num_epochs_src": 100
+    },
+    "UMAD": {
+      "w_0": 0.35,
+      "T_flat": 0.05,
+      "alpha_ls": 0.1,
+      "lam_orth": 0.1,
+      "rho_frac": 0.1,
+      "batch_size": 32,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.001,
+      "num_epochs_pr": 20,
+      "num_epochs_src": 100
+    }
+  },
+  "EEG": {
+    "GLC": {
+      "rho": 0.5,
+      "w_0": 0.5,
+      "lam_knn": 0.3,
+      "lam_psd": 1,
+      "local_K": 7,
+      "batch_size": 32,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.005,
+      "num_epochs_pr": 20,
+      "auto_threshold": false,
+      "num_epochs_src": 100
+    },
+    "GLCpp": {
+      "rho": 0.5,
+      "w_0": 0.55,
+      "lam_knn": 0.3,
+      "lam_psd": 2,
+      "lam_reg": 1,
+      "local_K": 10,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.001,
+      "num_epochs_pr": 20,
+      "auto_threshold": false,
+      "num_epochs_src": 100
+    },
+    "LEAD": {
+      "w_0": 0.55,
+      "alpha": 0.0001,
+      "lam_psd": 0.3,
+      "local_K": 10,
+      "batch_size": 32,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.005,
+      "num_epochs_pr": 20,
+      "auto_threshold": false,
+      "num_epochs_src": 100
+    },
+    "UMAD": {
+      "w_0": 0.4,
+      "T_flat": 0.5,
+      "alpha_ls": 0.1,
+      "lam_orth": 0.1,
+      "rho_frac": 0.1,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.001,
+      "num_epochs_pr": 20,
+      "num_epochs_src": 100
+    }
+  }
+}

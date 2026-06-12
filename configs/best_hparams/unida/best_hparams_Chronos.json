@@ -1,0 +1,53 @@
+{
+  "HAR": {
+    "UniJDOT": {
+      "K": 15,
+      "lamb": 4.6,
+      "alpha": 1.15,
+      "n_batch": 10,
+      "batch_size": 32,
+      "num_epochs": 20,
+      "src_weight": 0.4,
+      "trg_mem_size": 64,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.0001,
+      "num_epochs_pr": 20,
+      "joint_decision": true,
+      "threshold_method": "threshold_yen"
+    }
+  },
+  "HHAR": {
+    "UniJDOT": {
+      "K": 15,
+      "lamb": 0.15000000000000002,
+      "alpha": 4.1,
+      "n_batch": 15,
+      "batch_size": 64,
+      "num_epochs": 20,
+      "src_weight": 1.65,
+      "trg_mem_size": 32,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.0001,
+      "num_epochs_pr": 20,
+      "joint_decision": true,
+      "threshold_method": "threshold_yen"
+    }
+  },
+  "EEG": {
+    "UniJDOT": {
+      "K": 10,
+      "lamb": 0.9000000000000001,
+      "alpha": 4.8500000000000005,
+      "n_batch": 30,
+      "batch_size": 32,
+      "num_epochs": 20,
+      "src_weight": 3.35,
+      "trg_mem_size": 128,
+      "weight_decay": 0.0001,
+      "learning_rate": 0.0001,
+      "num_epochs_pr": 20,
+      "joint_decision": true,
+      "threshold_method": "threshold_yen"
+    }
+  }
+}

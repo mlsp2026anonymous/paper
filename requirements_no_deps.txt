@@ -1,0 +1,7 @@
+# Install these after requirements.txt with:
+#   pip install --no-deps -r requirements_no_deps.txt
+#
+# momentfm==0.1.4 pins huggingface-hub==0.24.0, but this project uses
+# huggingface-hub==0.36.2. This matches the Dockerfile install strategy.
+
+momentfm==0.1.4

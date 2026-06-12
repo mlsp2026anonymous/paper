@@ -1,0 +1,86 @@
+{
+  "CNN/HAR": {
+    "lr": 0.01,
+    "bs": 64
+  },
+  "FNO/HAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "TSLANet/HAR": {
+    "lr": 0.01,
+    "bs": 64
+  },
+  "S3Layer/HAR": {
+    "lr": 0.005,
+    "bs": 64
+  },
+  "Mantis/HAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "Chronos/HAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "Moment/HAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "CNN/HHAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "FNO/HHAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "TSLANet/HHAR": {
+    "lr": 0.005,
+    "bs": 64
+  },
+  "S3Layer/HHAR": {
+    "lr": 0.005,
+    "bs": 64
+  },
+  "Mantis/HHAR": {
+    "lr": 0.001,
+    "bs": 64
+  },
+  "Chronos/HHAR": {
+    "lr": 0.0005,
+    "bs": 64
+  },
+  "Moment/HHAR": {
+    "lr": 0.0005,
+    "bs": 64
+  },
+  "CNN/EEG": {
+    "lr": 0.0005,
+    "bs": 64
+  },
+  "FNO/EEG": {
+    "lr": 0.005,
+    "bs": 64
+  },
+  "TSLANet/EEG": {
+    "lr": 0.005,
+    "bs": 64
+  },
+  "S3Layer/EEG": {
+    "lr": 0.0005,
+    "bs": 64
+  },
+  "Mantis/EEG": {
+    "lr": 0.0005,
+    "bs": 64
+  },
+  "Chronos/EEG": {
+    "lr": 0.0005,
+    "bs": 64
+  },
+  "Moment/EEG": {
+    "lr": 0.001,
+    "bs": 64
+  }
+}
