@@ -295,7 +295,7 @@ def sinkhorn(out, epsilon, sinkhorn_iterations):
     """
     from https://github.com/facebookresearch/swav
     """
-    Q = torch.exp(out / epsilon).t()  # Q is K-by-B for consistency with notations from our paper
+    Q = torch.exp(out / epsilon).t()  # Q is K-by-B
     B = Q.shape[1]  # number of samples to assign
     K = Q.shape[0]  # how many prototypes
 
